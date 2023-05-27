@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+:root {
+  --dorminant1: #000000;
+  --dorminant2: #00C9C8;
+  --dorminant3: #BFFCF9;
+  --dorminant4: #47817F;
+  --bluecard: #ddf8fe;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+
+
+body {
+  font-size: 30px;
+  background-image: url("./assets/eberhard-grossgasteiger-HDxsIFHz4TI-unsplash.jpg");  
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}

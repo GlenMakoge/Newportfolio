@@ -1,0 +1,24 @@
+nav {
+    
+    padding: 16px 32px;
+    display: flex;
+    justify-content: flex-end;
+    position: static;
+    top: 0;
+    background: #000;
+}
+
+nav a {
+    margin-right: 16px;
+    margin: 20px;
+    color: var(--dorminant3);
+}
+
+nav a.active {
+    text-decoration: none;
+    font-weight: bold;
+    height: 6px;
+    border-radius: 5px;
+    background-color: var(--dorminant3);
+
+}

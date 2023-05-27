@@ -1,0 +1,25 @@
+.content {
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content p {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content p span {
+    font-style: italic;
+}
+
+.content a {
+    margin-left: 35%;
+}

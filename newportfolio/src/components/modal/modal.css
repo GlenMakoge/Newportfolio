@@ -1,0 +1,40 @@
+.modalBackground {
+    width: 100vw;
+    height: 40vh;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+     justify-content: center;
+    align-items: center;  
+}
+
+.modalContainer {
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    color: black;
+}
+
+.bttnn {
+    display: flex;
+    margin-left: 40%;
+    width: fit-content;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bttnn:hover {
+    background: red;
+    color: #fff;
+}
+
+.modalContainer h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
